@@ -9,10 +9,9 @@ We considered three German texts (Luther 2017, Schlachter and Hoffnung für alle
 | Luther 2017 | German   | 2017 | thought-for-thought |
 | Schlachter  | German   | 2000 | word-for-word       |
 | HFA         | German   | 2021 | paraphrase approach |
-|-------------|----------|------|---------------------|
 | NRSV        | English  | 1989 | paraphrase approach |
 | WEB         | English  | 2015 | paraphrase approach |
-|-------------|----------|------|---------------------|
+
 ## Background
 
 Building a concordance of texts, automated text alignment and automated text translation are well-studied research topics. The data in this repository can be used to evaluate the task of automatically annotating words within New Testament texts in order to create parallel Bible corpora in different languages. Here, the goal is to create cross-lingual concordances for New Testament texts and translations. These are widely used for research and teaching. As an example use case we refer to [https://www.stepbible.org/].
@@ -24,7 +23,7 @@ To evaluate non-annotated texts, we created gold standards for several verses an
 ## Documentation and Usage
 
 The data comes as generic json file. In Python you may read this data with ```json``` library:
-```
+```Python
 import json
 f = open('bible-gs.json')
 data = json.load(f)
@@ -32,7 +31,7 @@ data = json.load(f)
 
 Defining a Bible text and a verse makes the data directly accesible: 
 
-```
+```Python
 verse = "1 John 1:5"
 bible = "WEB"
 text = "This is the message which we have heard from him and announce to you, that God is light, and in him is no darkness at all."
