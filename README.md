@@ -1,8 +1,8 @@
-# Evaluation data for the annotation of German and English New Testament texts with Strong's numbers
+# Evaluation Data for the Annotation of German and English New Testament Texts with Strong's Numbers
 
-This repository holds a gold standard for parallel Bible texts and offers the annotation of 20 NT verses with Strong's numbers refering to Greek words.
+This repository provides a gold standard for parallel Bible texts and offers annotation of 20 New Testament verses with Strong's numbers referring to Greek words, see https://doi.org/10.5281/zenodo.8024803.
 
-We considered three German texts (Luther 2017, Schlachter and Hoffnung für alle) and two English texts (New Revised Standard Version and World English Bible):       
+We considered three German texts (Luther 2017, Schlachter, and Hoffnung für alle) and two English texts (New Revised Standard Version and World English Bible):       
 
 | Name        | Language | Year | Approach            |
 |-------------|----------|------|---------------------|
@@ -13,12 +13,11 @@ We considered three German texts (Luther 2017, Schlachter and Hoffnung für alle
 | WEB         | English  | 2015 | paraphrase approach |
 
 ## Background
-
-Building a concordance of texts, automated text alignment and automated text translation are well-studied research topics. The data in this repository can be used to evaluate the task of automatically annotating words within New Testament texts in order to create parallel Bible corpora in different languages. Here, the goal is to create cross-lingual concordances for New Testament texts and translations. These are widely used for research and teaching. As an example use case we refer to [https://www.stepbible.org/].
+Text concordance building, automated text alignment, and automated text translation are well-studied research topics. The data in this repository can be used to evaluate the task of automatically annotating words within New Testament texts in order to create parallel Bible corpora in different languages. The goal is to produce cross-lingual concordances for New Testament texts and translations. These are widely used in research and teaching. For an example of a use case, see [https://www.stepbible.org/].  
 
 ## Selected verses
 
-To evaluate non-annotated texts, we created gold standards for several verses and translations. We selected 20 verses from different books, both from the Gospels and the Acts of the Apostles, and from different epistles. It was important to select a variety of verses, both from narrative texts (e.g. Mk 10:3; Lk 1:9; Jn 12:2, 21:1; Acts 8:14) and from Gospel-specific verses (e.g, Mark 1:1; John 19:35), enumerations (e.g., Acts 27:5), apocalyptic texts (Rev 1:19; 14:5), and letters (e.g., Rom 1:1; 12:4; Eph 1:8; 1 Peter 1:10; 1 John 1:5; Jude 1:8). 
+To evaluate unannotated texts, we created gold standards for several verses and translations. We chose 20 verses from different books, both from the Gospels and the Acts of the Apostles, and from different epistles. It was important to choose a variety of verses, both from narrative texts (e.g. Mark 10:3; Luke 1:9; John 12:2, 21:1; Acts 8:14) and from Gospel-specific verses (e.g. Mark 1:1; John 19:35), enumerations (e.g, Acts 27:5), apocalyptic texts (Rev 1:19; 14:5), and letters (e.g., Rom 1:1; 12:4; Eph 1:8; 1 Peter 1:10; 1 John 1:5; Jude 1:8). 
 
 ## Documentation and Usage
 
@@ -55,5 +54,16 @@ If you use this work, please cite:
   organization={IEEE}
 }
 ```
-
+```bibtex
+@dataset{dorpinghaus_jens_2023_8024803,
+  author       = {Dörpinghaus, Jens},
+  title        = {{Evaluation Data for the Annotation of German and 
+                   English New Testament Texts with Strong's Numbers}},
+  month        = jun,
+  year         = 2023,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.8024803},
+  url          = {https://doi.org/10.5281/zenodo.8024803}
+}
+```
 
