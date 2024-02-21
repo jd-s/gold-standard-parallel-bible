@@ -43,7 +43,16 @@ print ("'"+text.split(" ")[i]+"' -> G"+data[verse][bible][i])
 
 If you use this work, please cite:
 
-
+```bibtex
+@article{dorpinghaus2024automated,
+  title={Automated annotation of parallel bible corpora with cross-lingual semantic concordance},
+  author={D{\"o}rpinghaus, Jens},
+  journal={Natural Language Engineering},
+  pages={1--24},
+  year={2024},
+  publisher={Cambridge University Press}
+}
+```
 ```bibtex
 @inproceedings{dorpinghaus2021automated,
   title={Automated creation of parallel Bible corpora with cross-lingual semantic concordance},
